@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AkunFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/navbar"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+
+                <TextView
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.github.florent37.shapeofview.shapes.CircleView
+                    android:id="@+id/circleView"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/navbar">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:src="@drawable/banjir1" />
+
+                </com.github.florent37.shapeofview.shapes.CircleView>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="Ichlasul Arkan"
+                    android:textColor="#000"
+                    android:textSize="24dp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Total Donasi"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="16dp" />
+
+
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.25.000"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreylite">
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/shape_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="@drawable/shape_item_acc"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_account_balance_wallet_black_24dp"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rp.25.000"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/shape_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="@drawable/shape_item_acc"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_call_black_24dp"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nomer Telepon"/>
+
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="089611483784"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/shape_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="@drawable/shape_item_acc"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_email_black_24dp"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"/>
+
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ichlasul347@gmail.com"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/shape_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="@drawable/shape_item_acc"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_place_black_24dp"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kota Tinggal"/>
+
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bogor"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/shape_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="@drawable/shape_item_acc"
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="50dp"
+                        android:gravity="center"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_perm_contact_calendar_black2_24dp"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="8dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tanggal Lahir"/>
+
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27/01/1999"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_alignParentRight="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saldo Saya"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

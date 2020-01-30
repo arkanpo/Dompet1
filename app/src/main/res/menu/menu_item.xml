@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/str_beranda"
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item
+        android:id="@+id/riwayat_menu"
+        android:title="@string/str_riwayat"
+        android:icon="@drawable/ic_history_black_24dp"/>
+
+    <item
+        android:id="@+id/berita_menu"
+        android:title="@string/str_berita"
+        android:icon="@drawable/ic_web_black_24dp"/>
+
+    <item
+        android:id="@+id/akun_menu"
+        android:title="@string/str_akun"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+
+</menu>

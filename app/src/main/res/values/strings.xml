@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Dompet1</string>
+
+    <string name="str_beranda">Beranda</string>
+    <string name="str_riwayat">Riwayat</string>
+    <string name="str_berita">Dompet</string>
+    <string name="str_akun">Akun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

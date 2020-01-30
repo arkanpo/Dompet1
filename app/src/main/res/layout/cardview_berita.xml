@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.github.florent37.shapeofview.shapes.RoundRectView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:elevation="4dp"
+            app:shape_roundRect_bottomLeftRadius="10dp"
+            app:shape_roundRect_bottomRightRadius="10dp"
+            app:shape_roundRect_topLeftRadius="10dp"
+            app:shape_roundRect_topRightRadius="10dp">
+
+            <ImageView
+                android:id="@+id/image_berita"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/banjir1"/>
+
+        </com.github.florent37.shapeofview.shapes.RoundRectView>
+
+        <LinearLayout
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul_berita"
+                android:textSize="16sp"
+                android:lineHeight="20dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:text="Jakarta banjir warga jakarta sedih barang barangnya terendam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"/>
+
+            <TextView
+                android:id="@+id/deskripsi_berita"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorGrey"
+                android:text="Jakarta banjir warga jakarta sedih barang barangnya terendam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"/>
+
+            <RelativeLayout
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/colorBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Read More...."/>
+
+
+                <TextView
+                    android:textSize="12dp"
+                    android:id="@+id/tanggal_berita"
+                    android:layout_marginRight="6dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/colorBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="18-01-2020"/>
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
